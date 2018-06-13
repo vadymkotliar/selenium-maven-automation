@@ -1,5 +1,6 @@
 package diceautomation;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -31,5 +32,6 @@ public class DiceAuto {
 	System.out.println(a.getText());
 	
 	driver.close();
+	System.out.println("Test Completed..."+ LocalDateTime.now());
     }
 }
